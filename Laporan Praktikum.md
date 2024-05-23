@@ -4,14 +4,24 @@
 
 **LATAR BELAKANG**
 
+- **Stack**: Struktur data LIFO (Last In, First Out) di mana elemen terakhir yang dimasukkan adalah yang pertama kali keluar. Operasi utamanya adalah Push (menambahkan) dan Pop (menghapus). Contoh penerapan meliputi manajemen memori dan evaluasi ekspresi matematika.
+
+- **Queue**: Struktur data FIFO (First In, First Out) di mana elemen pertama yang dimasukkan adalah yang pertama kali keluar. Operasi utamanya adalah Enqueue (menambahkan) dan Dequeue (menghapus). Contoh penerapan meliputi penjadwalan proses dan pengaturan antrian pesan.
 
 **RUMUSAN MASALAH**
 
+a. Bagaimana cara memahami konsep stack dan queue pada struktur data dan algoritma dengan baik?
+
+b. Bagaimana cara mengimplementasikan operasi-operasi dasar pada stack dan queue, seperti Push, Pop, Enqueue, dan Dequeue?
+
+c. Bagaimana cara memecahkan permasalahan menggunakan solusi yang melibatkan penggunaan stack dan queue, seperti manajemen memori, evaluasi ekspresi matematika, penjadwalan proses, atau pengaturan antrian pesan?
 
 
 **TUJUAN PRAKTIKUM**
 
-
+a. Mampu memahami konsep stack dan queue pada struktur data dan algoritma
+b. Mampu mengimplementasikan operasi-operasi pada stack dan queue
+c. Mampu memecahkan permasalahan dengan solusi stack dan queue
 
 **BAB 2**
 
@@ -19,6 +29,9 @@
 
 **DASAR TEORI**
 
+Stack adalah struktur data sederhana yang mengikuti prinsip Last In, First Out (LIFO), yang mirip dengan tumpukan piring di kafetaria. Definisi umumnya menyebutkan bahwa operasi seperti Push (menambah), Pop (menghapus), dan Top (melihat elemen teratas) adalah operasi dasar yang umum dilakukan pada stack. Selain itu, fungsi lain seperti IsEmpty (memeriksa apakah kosong) dan Size (mengembalikan jumlah elemen) juga penting dalam penggunaan stack.
+
+Queue adalah struktur data yang mengikuti prinsip First In, First Out (FIFO), mirip dengan konsep antrian dalam kehidupan sehari-hari. Queue dapat diimplementasikan menggunakan array atau linked list, dengan struktur yang terdiri dari dua pointer, yaitu front dan rear. Operasi dasar pada queue meliputi enqueue (menambahkan), dequeue (mengeluarkan), peek (melihat tanpa menghapus), isEmpty (memeriksa apakah kosong), isFull (memeriksa apakah penuh), dan size (menghitung jumlah elemen).
 
 **GUIDED**
 
@@ -662,6 +675,10 @@ Terakhir, program menggunakan system("pause") untuk menahan layar agar tidak lan
 ```C++
 Masukkan kalimat: ini
 Kalimat tersebut adalah palindrom.
+Press any key to continue . . .
+
+Masukkan kalimat: telkom
+Kalimat tersebut bukan palindrom.
 Press any key to continue . . .
 ```
 
