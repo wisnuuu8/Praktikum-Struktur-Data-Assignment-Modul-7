@@ -20,7 +20,9 @@ c. Bagaimana cara memecahkan permasalahan menggunakan solusi yang melibatkan pen
 **TUJUAN PRAKTIKUM**
 
 a. Mampu memahami konsep stack dan queue pada struktur data dan algoritma
+
 b. Mampu mengimplementasikan operasi-operasi pada stack dan queue
+
 c. Mampu memecahkan permasalahan dengan solusi stack dan queue
 
 **BAB 2**
