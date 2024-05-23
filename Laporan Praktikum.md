@@ -4,7 +4,7 @@
 
 **LATAR BELAKANG**
 
-- **Stack**: Struktur data LIFO (Last In, First Out) di mana elemen terakhir yang dimasukkan adalah yang pertama kali keluar. Operasi utamanya adalah Push (menambahkan) dan Pop (menghapus). Contoh penerapan meliputi manajemen memori dan evaluasi ekspresi matematika.
+- **Stack**: Struktur data LIFO (Last In, First Out) di mana elemen terakhir yang dimasukkan adalah yang pertama kali keluar. Operasi utamanya adalah Push (menambahkan) dan Pop (menghapus)[1]. Contoh penerapan meliputi manajemen memori dan evaluasi ekspresi matematika.
 
 - **Queue**: Struktur data FIFO (First In, First Out) di mana elemen pertama yang dimasukkan adalah yang pertama kali keluar. Operasi utamanya adalah Enqueue (menambahkan) dan Dequeue (menghapus). Contoh penerapan meliputi penjadwalan proses dan pengaturan antrian pesan.
 
@@ -29,9 +29,9 @@ c. Mampu memecahkan permasalahan dengan solusi stack dan queue
 
 **DASAR TEORI**
 
-Stack adalah struktur data sederhana yang mengikuti prinsip Last In, First Out (LIFO), yang mirip dengan tumpukan piring di kafetaria. Definisi umumnya menyebutkan bahwa operasi seperti Push (menambah), Pop (menghapus), dan Top (melihat elemen teratas) adalah operasi dasar yang umum dilakukan pada stack. Selain itu, fungsi lain seperti IsEmpty (memeriksa apakah kosong) dan Size (mengembalikan jumlah elemen) juga penting dalam penggunaan stack.
+Stack adalah struktur data sederhana yang mengikuti prinsip Last In, First Out (LIFO), yang mirip dengan tumpukan piring di kafetaria. Definisi umumnya menyebutkan bahwa operasi seperti Push (menambah), Pop (menghapus), dan Top (melihat elemen teratas) adalah operasi dasar yang umum dilakukan pada stack. Selain itu, fungsi lain seperti IsEmpty (memeriksa apakah kosong) dan Size (mengembalikan jumlah elemen) juga penting dalam penggunaan stack[2].
 
-Queue adalah struktur data yang mengikuti prinsip First In, First Out (FIFO), mirip dengan konsep antrian dalam kehidupan sehari-hari. Queue dapat diimplementasikan menggunakan array atau linked list, dengan struktur yang terdiri dari dua pointer, yaitu front dan rear. Operasi dasar pada queue meliputi enqueue (menambahkan), dequeue (mengeluarkan), peek (melihat tanpa menghapus), isEmpty (memeriksa apakah kosong), isFull (memeriksa apakah penuh), dan size (menghitung jumlah elemen).
+Queue adalah struktur data yang mengikuti prinsip First In, First Out (FIFO), mirip dengan konsep antrian dalam kehidupan sehari-hari. Queue dapat diimplementasikan menggunakan array atau linked list, dengan struktur yang terdiri dari dua pointer, yaitu front dan rear[3]. Operasi dasar pada queue meliputi enqueue (menambahkan), dequeue (mengeluarkan), peek (melihat tanpa menghapus), isEmpty (memeriksa apakah kosong), isFull (memeriksa apakah penuh), dan size (menghitung jumlah elemen).
 
 **GUIDED**
 
@@ -845,3 +845,10 @@ Pilih:
 ```
 
 **DAFTAR PUSTAKA**
+
+Selamet, R. (2016). Implementasi Struktur Data List, Queue Dan Stack Dalam Java. Media Informatika, 15(3), 18–25.
+
+Aliyanto, A., Utomo, S., & Santosa, S. (2011). Sistem Pembelajaran Algoritma Stack Dan Queue Dengan Pendekatan Program Based Learning. Jurnal Teknologi Informasi, 7(1), 17–18.
+
+Sihombing, J. (2019). Penerapan Stack Dan Queue Pada Array Dan Linked List Dalam Java. Jurnal Ilmiah Infokom, 7(2), 15–24.
+
